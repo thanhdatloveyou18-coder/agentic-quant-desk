@@ -23,6 +23,9 @@ dependencies = [
     "urllib3>=1.26.0",
 ]
 
+[project.scripts]
+agentic-quant = "agentic_quant.cli:main"
+
 [project.urls]
 "Homepage" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk"
 "Bug Tracker" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk/issues"
