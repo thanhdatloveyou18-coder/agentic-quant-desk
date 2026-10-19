@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-quant-desk"
+version = "1.0.0"
+authors = [
+  { name="Thao Huynh", email="thao@huynhbusinessllc.com" },
+]
+description = "Autonomous Multi-Agent Quantitative Trading Desk & On-Chain Risk Discovery Framework"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "psutil>=5.9.0",
+    "urllib3>=1.26.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk"
+"Bug Tracker" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk/issues"
