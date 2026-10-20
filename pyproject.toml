@@ -23,6 +23,9 @@ dependencies = [
     "urllib3>=1.26.0",
 ]
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [project.scripts]
 agentic-quant = "agentic_quant.cli:main"
 
