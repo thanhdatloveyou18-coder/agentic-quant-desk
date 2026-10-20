@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agentic-quant-desk"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Thao Huynh", email="thao@huynhbusinessllc.com" },
 ]
-description = "Autonomous Multi-Agent Quantitative Trading Desk & On-Chain Risk Discovery Framework"
+description = "Autonomous Multi-Agent Quantitative Trading Desk, JEV Fast Router & On-Chain Risk Discovery Framework"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -31,4 +31,5 @@ agentic-quant = "agentic_quant.cli:main"
 
 [project.urls]
 "Homepage" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk"
+"Live Demo" = "https://thanhdatloveyou18-coder.github.io/agentic-quant-desk/"
 "Bug Tracker" = "https://github.com/thanhdatloveyou18-coder/agentic-quant-desk/issues"
